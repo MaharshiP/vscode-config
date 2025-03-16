@@ -1,0 +1,67 @@
+{
+    "redhat.telemetry.enabled": false,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 15,
+    "editor.wordWrap": "on",
+    "editor.fontLigatures": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontSize": 15,
+    "editor.minimap.renderCharacters": false,
+    "debug.autoExpandLazyVariables": "on",
+    "workbench.editorAssociations": {
+        "*.sqlite3": "default"
+    },
+    "java.debug.settings.showStaticVariables": true,
+    "java.debug.settings.showHex": false,
+    "workbench.startupEditor": "none",
+    "editor.stickyScroll.enabled": true,
+
+    "vim.foldfix": true,
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.customGlyphs": false,
+
+    "vim.leader": "<Space>",
+
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // NAVIGATION
+        // switch b/w buffers
+        { "before": ["<S-h>"], "commands": [":bprevious"] },
+        { "before": ["<S-l>"], "commands": [":bnext"] },
+
+        // splits
+        { "before": ["leader", "v"], "commands": [":vsplit"] },
+        { "before": ["leader", "s"], "commands": [":split"] },
+
+        // panes
+        {
+        "before": ["leader", "h"],
+        "commands": ["workbench.action.focusLeftGroup"]
+        },
+        {
+        "before": ["leader", "j"],
+        "commands": ["workbench.action.focusBelowGroup"]
+        },
+        {
+        "before": ["leader", "k"],
+        "commands": ["workbench.action.focusAboveGroup"]
+        },
+        {
+        "before": ["leader", "l"],
+        "commands": ["workbench.action.focusRightGroup"]
+        },
+    ],
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "toggle",
+    "window.customTitleBarVisibility": "auto",
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace"
+
+    
+}
